@@ -1,4 +1,4 @@
-.slide-wrapper { width: 100vw; height: 100vh; position: relative; }
+.slide-wrapper { height: 100vh; position: relative; }
 
 .slide-main-content { display: flex; height: 100%; }
 .product-main-photos { display: flex; align-items: center; margin-left: 150px; }
