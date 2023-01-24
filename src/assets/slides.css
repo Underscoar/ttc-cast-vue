@@ -1,5 +1,12 @@
 .slide-wrapper { height: 100vh; position: relative; }
 
+.timer-wrap { height: 12px; overflow: hidden; }
+.timer-wrap .timer { background: var(--blue); height: 100%; animation-name: play-timer; animation-timing-function: linear; animation-fill-mode: both; transform: translateX(-100%); animation-duration: 1s; }
+
+@keyframes play-timer {
+    to { transform: translateX(0); }
+}
+
 .slide-main-content { display: flex; height: 100%; }
 .product-main-photos { display: flex; align-items: center; margin-left: 150px; }
 .product-main-photos img {filter: drop-shadow(7px 7px 5px rgb(0 0 0 / 20%)); }
