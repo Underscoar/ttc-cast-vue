@@ -18,18 +18,28 @@
         bonnen: '3 bonnen',
         img1: 'desperados.33_1_2.png',
         img2: 'desperados.33_1_2.png',
-        animateIn: [
-          'bottom-bar',
-          'breadcrumbs',
-          'product-main-photos',
-          'product-title',
-          'product-price',
-        ],
-        animateOut: [
-          'product-main-photos',
-          'product-title',
-          'product-price'
-        ]
+        animate: {
+          bottomBar: {
+            animateIn: true,
+            animateOut: false
+          },
+          breadcrumbs: {
+            animateIn: true,
+            animateOut: false
+          },
+          productMainPhotos: {
+            animateIn: true,
+            animateOut: true
+          },
+          productTitle: {
+            animateIn: true,
+            animateOut: true
+          },
+          productPrice: {
+            animateIn: true,
+            animateOut: true
+          },
+        },
       }
     },
   ]
